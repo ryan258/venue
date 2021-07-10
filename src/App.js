@@ -1,5 +1,6 @@
 import Header from './components/Header/Header'
 import Featured from './components/Featured/'
+import VenueInfo from './components/VenueInfo'
 import Footer from './components/Footer/Footer'
 
 import './resources/styles.css'
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <>
         <Featured />
+        <VenueInfo />
       </>
       <div style={{ backgroundColor: 'red', height: '800px' }}></div>
       <div style={{ backgroundColor: 'blue', height: '800px' }}></div>

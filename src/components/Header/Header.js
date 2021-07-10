@@ -13,7 +13,7 @@ const Header = () => {
   }
 
   const handleScroll = () => {
-    console.log(window.scrollY)
+    // console.log(window.scrollY)
 
     if (window.scrollY > 0) {
       setHeaderShow(true)
