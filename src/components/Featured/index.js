@@ -1,8 +1,7 @@
 import React from 'react'
 
 import Carousel from './Carousel'
-// import 'slick-carousel/slick/slick.css'
-// import 'slick-carousel/slick/slick-theme.css'
+import TimeUntil from './TimeUntil'
 
 const Featured = () => {
   return (
@@ -11,6 +10,7 @@ const Featured = () => {
       <div className="artist_name">
         <div className="wrapper">Ariana Grande</div>
       </div>
+      <TimeUntil />
     </div>
   )
 }
